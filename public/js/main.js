@@ -276,28 +276,16 @@
 
 	};
 
-	// var clients = function(){
-	// 				    $('.customer-logos').slick({
-	// 				        slidesToShow: 6,
-	// 				        slidesToScroll: 1,
-	// 				        autoplay: true,
-	// 				        autoplaySpeed: 1500,
-	// 				        arrows: false,
-	// 				        dots: false,
-	// 				        pauseOnHover: false,
-	// 				        responsive: [{
-	// 				            breakpoint: 768,
-	// 				            settings: {
-	// 				                slidesToShow: 4
-	// 				            }
-	// 				        }, {
-	// 				            breakpoint: 520,
-	// 				            settings: {
-	// 				                slidesToShow: 3
-	// 				            }
-	// 				        }]
-	// 				    });
-	// 				};
+	var clients = function() {
+					  $('.flexslider').flexslider({
+					    animation: "slide",
+					    animationLoop: false,
+					    itemWidth: 200,
+					    itemMargin: 5,
+					    minItems: 2,
+					    maxItems: 5
+					  });
+					};
 
 	
 	$(function(){
@@ -313,7 +301,7 @@
 		parallax();
 		sliderMain();
 		testimonialCarousel();
-		// clients();
+		clients();
 	});
 
 
