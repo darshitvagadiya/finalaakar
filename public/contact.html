@@ -83,25 +83,6 @@
 			</div>
 		</div>
 	</nav>
-	
-	<!-- <aside id="fh5co-hero"> 
-		<div class="flexslider">
-			<ul class="slides">
-		   	<li style="background-image: url(images/img_bg_4.jpg);">
-		   		<div class="overlay-gradient"></div>
-		   		<div class="container">
-		   			<div class="row">
-			   			<div class="col-md-8 col-md-offset-2 text-center slider-text">
-			   				<div class="slider-text-inner">
-			   					<h1 class="heading-section">Contact us</h1>
-			   				</div>
-			   			</div>
-			   		</div>
-		   		</div>
-		   	</li>
-		  	</ul>
-	  	</div>
-	</aside> -->
 
 	<div id="fh5co-contact">
 		<div class="container">
@@ -112,14 +93,18 @@
 						<h3>Contact Information</h3>
 						<h4>Factory</h4>
 						<ul>
-							<li class="address">Plot No.817B, Kishan Gate, <br>Metoda GIDC, Rajkot - 360021</li>
+							<li class="address">Plot No.817B, Road No. 2,  Kishan Gate, <br>Metoda GIDC, Rajkot - 360021</li>
 						</ul>
 						<h4>Office</h4>
 						<ul>
 							<li class="address">U-21, Chitralekha Complex, <br>Near KKV Hall, 150 ft ring road, <br>Rajkot 360005</li>
 						</ul>
 						<ul>
-							<li class="phone"><a href="tel://1234567920">+91 95862 00004</a></li>
+							<li class="phone"><a href="tel://95862 00004">+91 95862 00004</a></li>
+							<li class="phone"><a href="tel://02827287667">+91 2827-287667</a></li>
+							<h4>General Inquiries</h4>
+							<li class="email"><a href="mailto:aakarindus@gmail.com">aakarindus@gmail.com</a></li>
+							<h4>Sales Inquiries</h4>
 							<li class="email"><a href="mailto:sales@aakarindustries.com">sales@aakarindustries.com</a></li>
 							<li class="url"><a href="http://www.aakarindustries.com/">aakarindustries.com</a></li>
 						</ul>
@@ -128,35 +113,31 @@
 				</div>
 				<div class="col-md-6 animate-box">
 					<h3>Get In Touch</h3>
-					<form action="#">
+					<form method="POST" action="/send">
 						<div class="row form-group">
-							<div class="col-md-6">
-								<!-- <label for="fname">First Name</label> -->
-								<input type="text" id="fname" class="form-control" placeholder="Your firstname">
-							</div>
-							<div class="col-md-6">
-								<!-- <label for="lname">Last Name</label> -->
-								<input type="text" id="lname" class="form-control" placeholder="Your lastname">
+							<div class="col-md-12">
+								<label for="fname">Your Name</label>
+								<input name="name" type="text" id="fname" class="form-control" placeholder="Your Name">
 							</div>
 						</div>
 
 						<div class="row form-group">
 							<div class="col-md-12">
-								<!-- <label for="email">Email</label> -->
-								<input type="text" id="email" class="form-control" placeholder="Your email address">
+								<label for="email">Email</label>
+								<input type="text" name="email" id="email" class="form-control" placeholder="Your email address">
 							</div>
 						</div>
 
 						<div class="row form-group">
 							<div class="col-md-12">
-								<!-- <label for="subject">Subject</label> -->
-								<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
+								<label for="phone">Phone</label>
+								<input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone Number">
 							</div>
 						</div>
 
 						<div class="row form-group">
 							<div class="col-md-12">
-								<!-- <label for="message">Message</label> -->
+								<label for="message">Message</label>
 								<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
 							</div>
 						</div>
